@@ -1,0 +1,23 @@
+name: Personify
+main: com.xorinc.personify.PersonifyPlugin
+version: 0.0.1
+author: xor_boole
+website: http://github.com/
+description: >
+    Generate player statues
+commands:
+   personify:
+      description: Generates a statue
+      permission: personify.use
+      usage: /<command> [name]
+   skinfetch:
+      description: Downloads a skin into memory
+      permission: personify.use
+      usage: /<command> [name]
+permissions:
+   personify.use:
+      description: Allows generation of player statues
+      default: op
+   personify.download:
+      description: Allows downloading of skins
+      default: op
